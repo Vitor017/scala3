@@ -1,0 +1,17 @@
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+  }
+}
+val sum = (1 to 100).sum
+println("Sum of numbers from 1 to 100: " + sum)
+def isEven(num: Int): Boolean = {
+  num % 2 == 0
+}
+
+val number = 10
+if (isEven(number)) {
+  println(number + " is even.")
+} else {
+  println(number + " is odd.")
+}
